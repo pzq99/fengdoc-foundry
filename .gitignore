@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+tmp/
+output/
+*.pdf
+
+# Never publish private keys, local templates, or reconstructed research files.
+*.pem
+*.key
+id_ed25519*
+id_rsa*
+Template-*.docx
+*-reconstructed.*
