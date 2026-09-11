@@ -30,7 +30,7 @@ This specification records the Supporting Information formatting contract implem
 | Body | Times New Roman 12 pt, black | Justified; 1.5 lines; 7.8 pt before/after; no first-line indent |
 | `Discussion S#` / `Method S#` | Times New Roman 12 pt; entire heading `#000099`; label through S-number bold | Justified; 1.5 lines; 7.8 pt before, 15.6 pt after; keep with next |
 | Lettered subheading | Times New Roman 12 pt; letter bold italic, title bold | Justified; 1.5 lines; 7.8 pt before/after; keep with next |
-| Synthesis subheading | Outline square plus Times New Roman 12 pt bold | Justified; 1.5 lines; 7.8 pt before/after; keep with next |
+| Outline-box subheading | Outline square plus Times New Roman 12 pt bold | Justified; 1.5 lines; 7.8 pt before/after; keep with next |
 | Procedure step | Times New Roman 12 pt; `Step-N` bold | Body paragraph rhythm |
 | Display equation | Native Word OMML / Cambria Math | Centered; body-equivalent vertical spacing |
 
@@ -40,8 +40,8 @@ This specification records the Supporting Information formatting contract implem
 |---|---|
 | Image alignment | Centered; original aspect ratio retained |
 | Figure S1–S7 width | Approximately 458–459 pt, near the 162 mm portrait text width |
-| Synthesis-route width | Approximately 458.3–458.6 pt |
-| NMR spectrum width | Approximately 375.95–376.9 pt, about 132.6–133.0 mm |
+| Full-width figure | Approximately 458.3–458.6 pt |
+| Secondary-width figure | Approximately 375.95–376.9 pt, about 132.6–133.0 mm |
 | Caption font | Times New Roman 12 pt |
 | Caption lead | First title sentence `#000099`, with `Figure S#.` bold |
 | Caption body | Later explanation black; justified |

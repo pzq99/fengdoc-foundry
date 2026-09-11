@@ -528,12 +528,10 @@ REFERENCE_PATTERN = re.compile(
     r"|\bSections?\s+\d+(?:\.\d+)?(?:\s*[\u2013\-]\s*\d+(?:\.\d+)*)?"
 )
 
-# Terms set in italic: platform names, Latin loci, and statistical letters
-# (P, q, n) preceding a comparison operator. Title paragraphs are excluded
-# for platform names.
+# Terms set in italic: Latin loci and statistical letters (P, q, n)
+# preceding a comparison operator.
 ITALIC_PATTERN = re.compile(
-    r"\bLinkeReady\b"
-    r"|\bin\s+(?:silico|vitro|vivo)\b"
+    r"\bin\s+(?:silico|vitro|vivo)\b"
     r"|\b[Pqn](?=\s*[=<>>\u2264\u2265])"
 )
 

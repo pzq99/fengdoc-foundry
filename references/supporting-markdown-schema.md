@@ -38,17 +38,17 @@ Start each major `Discussion S#` or `Method S#` unit on a new page when followin
 
 ```markdown
 ::: {custom-style="SI Subheading"}
-***a.*** **docking score (DS)**
+***a.*** **example metric (EM)**
 :::
 
 ::: {custom-style="SI Subheading"}
-□ **The synthetic route designed in this study**
+□ **Highlighted procedure**
 :::
 
 **Step-1.** Procedure text.
 ```
 
-Use an outline square `□` for synthesis subheadings. Keep the letter marker bold italic and the descriptive title bold.
+Use an outline square `□` for emphasized procedure subheadings. Keep the letter marker bold italic and the descriptive title bold.
 
 ## Figures and images
 
@@ -62,7 +62,7 @@ Use an outline square `□` for synthesis subheadings. Keep the letter marker bo
 :::
 ```
 
-Use a width attribute when exact image sizing matters. The portrait text width is 16.2 cm; NMR spectra in the reference use approximately 13.3 cm. Images are optional, but captions are not.
+Use a width attribute when exact image sizing matters. The portrait text width is 16.2 cm; the secondary-width figure profile is approximately 13.3 cm. Images are optional, but captions are not.
 
 ## Equations
 
@@ -83,9 +83,9 @@ The converter emits native Word math.
 **Table S1.** Table title.
 :::
 
-| Gene Name | Protein Name | PDB ID | RMSD^a^ | Released Time |
+| Item | Description | Identifier | Value^a^ | Date |
 |:--|:--|:--:|--:|:--:|
-| *ADAL* | N6-Methyl-AMP deaminase | 8QCH | 0.328 | 2024/07/31 |
+| Example | Placeholder row | ID-001 | 0.328 | 2000/01/01 |
 
 ::: {custom-style="SI Table Note"}
 ***^a^*** Explanatory note.

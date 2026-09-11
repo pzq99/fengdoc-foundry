@@ -1,0 +1,4 @@
+interface:
+  display_name: "FengDoc Foundry"
+  short_description: "Format manuscript or Supporting Information Markdown as DOCX"
+  default_prompt: "Use $fengdoc-foundry to convert my manuscript or Supporting Information Markdown into a consistently formatted DOCX."

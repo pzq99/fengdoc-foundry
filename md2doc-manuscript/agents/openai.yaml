@@ -1,4 +1,0 @@
-interface:
-  display_name: "Scientific MD to DOCX"
-  short_description: "将正文手稿或支持信息 Markdown 排版为模板化 Word"
-  default_prompt: "Use $md2doc-manuscript to convert my manuscript or Supporting Information Markdown into a template-matched DOCX."
